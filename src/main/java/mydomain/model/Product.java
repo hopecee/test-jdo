@@ -1,4 +1,5 @@
 package mydomain.model;
+import java.io.Serializable;
 
 import javax.jdo.annotations.*;
 
