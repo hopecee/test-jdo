@@ -77,6 +77,7 @@ public class SimpleTest
             //prods = tq.filter(cand.equalsIgnoreCase(value)).executeList(); // works.
             //prods = tq.filter(cand.startsWith(value)).executeList(); // works.
             prods = tq.filter(cand.ne(value)).executeList(); // does not work.
+            // no way to search product name that contains "Apple".
             
             NucleusLogger.GENERAL.info(">> Product List: " + prods);
             
