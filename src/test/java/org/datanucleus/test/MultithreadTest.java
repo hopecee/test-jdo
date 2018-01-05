@@ -10,6 +10,8 @@ import org.datanucleus.util.NucleusLogger;
 
 public class MultithreadTest
 {
+    
+    /*
     // Enable this if using this test
 //    @Test
     public void testMulti()
@@ -100,11 +102,11 @@ public class MultithreadTest
         NucleusLogger.GENERAL.info(">> test END");
     }
 
-    /**
+    / **
      * Method to perform the test for a Thread.
      * @param pmf The PersistenceManagerFactory
      * @return A string which is null if the PM operations are successful
-     */
+     * /
     protected String performTest(PersistenceManagerFactory pmf)
     {
         PersistenceManager pm = pmf.getPersistenceManager();
@@ -132,4 +134,5 @@ public class MultithreadTest
         }
         return null;
     }
+    */
 }
